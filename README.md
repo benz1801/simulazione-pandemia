@@ -10,7 +10,7 @@ Questo progetto è una simulazione di una pandemia implementata in Python utiliz
 ## Installazione
 1. Clona il repository:
     ```bash
-    git clone https://github.com/tuo-username/simulazione-pandemia.git
+    git clone https://github.com/benz1801/simulazione-pandemia.git
     ```
 2. Entra nella directory del progetto:
     ```bash
