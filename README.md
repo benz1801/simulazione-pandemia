@@ -24,12 +24,16 @@ Questo progetto è una simulazione di una pandemia implementata in Python utiliz
 ## Utilizzo
 Il programma esegue una simulazione basata sui parametri specificati. Gli utenti possono modificare i seguenti parametri nella funzione `simulazione`:
 
-- `n`: Numero di individui nella simulazione.
 - `r`: Raggio dell'area di simulazione (in pixel).
+- `n`: Numero di individui nella simulazione.
 - `p`: Probabilità che un individuo sia infetto all'inizio della simulazione.
+- `d`: Distanziamento sociale.
+- `v`: Movimenti giornalieri degli individui.
 - `g`: Numero di giorni da simulare.
-- `m`: Probabilità che un individuo infetto muoia durante la simulazione.
+- `c`: Raggio di contagio.
+- `h`: Durata della malattia.
+- `m`: Tasso di mortalità giornaliero.
 
 ### Esempio di Esecuzione
 ```python
-simulazione(n=100, r=300, p=0.2, g=50, m=0.05, h=..., v=..., c=..., d=...)
+simulazione(r=300, n=100, p=0.2, d=10, v=20, g=50, c=10, h=15,m=0.05)
